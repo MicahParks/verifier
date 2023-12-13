@@ -1,0 +1,4 @@
+github.com/MicahParks/jwkset v0.5.3 h1:C4LcmX/fMvUj6ZjMLXy5IAuOtDd3c7e0DhAmAvttSTw=
+github.com/MicahParks/jwkset v0.5.3/go.mod h1:fOx7dCX+XgPDzcRbZzi9DMY3vyebWXmsz7XPqstr3ms=
+github.com/cristalhq/jwt/v5 v5.4.0 h1:Wxi1TocFHaijyV608j7v7B9mPc4ZNjvWT3LKBO0d4QI=
+github.com/cristalhq/jwt/v5 v5.4.0/go.mod h1:+b/BzaCWEpFDmXxspJ5h4SdJ1N/45KMjKOetWzmHvDA=
