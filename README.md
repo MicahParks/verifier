@@ -10,8 +10,8 @@ and verifying JSON Web Tokens (JWTs).
 It's common for an identity providers, particularly those
 using [OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc6749)
 or [OpenID Connect](https://openid.net/developers/how-connect-works/), such
-as [Keycloak](https://github.com/MicahParks/verifier/blob/master/examples/keycloak/main.go)
-or [Amazon Cognito (AWS)](https://github.com/MicahParks/verifier/blob/jwkset/examples/aws_cognito/main.go) to expose a
+as [Keycloak](https://github.com/MicahParks/verifier/blob/verifier/examples/keycloak/main.go)
+or [Amazon Cognito (AWS)](https://github.com/MicahParks/verifier/blob/verifier/examples/aws_cognito/main.go) to expose a
 JWK Set via an HTTPS endpoint. This package has the ability to consume that JWK Set and produce a
 [`jwt.Verifier`](https://pkg.go.dev/github.com/cristalhq/jwt/v5#Verifier) or parse and verify tokens directly. It is
 important that a JWK Set endpoint is using HTTPS to ensure the keys are from the correct trusted source.
